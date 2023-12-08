@@ -309,6 +309,19 @@
 // Koşul doğru ise ? işaretini, koşul yanlış işe : işaretini kullanırız.
 // info.innerHTML = `${userName ? userName : "Kullani Bilginiz Bulunamadi :("}` // Burada ise infonun innerHTML'sine ulaşıp userName dolu ise kendisini yazdırmasını dolu değil ise Kullani Bilginiz Bulunamadi :( yazdırmasını istedik.
 
+// FONKSİYON TANIMLAMAK :
+// function helloWorld() { 
+//     console.log("Hello World")
+// }
+
+// function hello() {
+//    console.log("Merhaba")
+//    helloWorld()
+// }
+
+// hello() 
+
+// Yukarıda ki örnekte ilk olarak helloWorld adında bir fonksiyon oluşturduk ve içerisine consola Hello World yazmasını istedik sonra sonda ise hello adında bir fonksiyon oluşturduk ve içerisine ilk olarak consola merhaba yazmasını sonrasında ise helloWorld fonksiyonunu çalıştırmasını istedik. En son olarak ise hello() ile hello fonksiyonumuzu çalıştırdık ve ilk olarak consola merhaba yazdı sonrasında ise helloWorld fonksinonunu da içinde bulundurduğundan onu çalıştırarak conssola Hello Wordl yazdı.
 
 
 
