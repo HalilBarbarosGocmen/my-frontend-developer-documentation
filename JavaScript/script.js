@@ -17,6 +17,13 @@
 // console.log ile Merhaba Dünya:
 // console.log("Merhaba Dünya") 
 
+// SCOPE KAVRAMI :
+// Kod içerisindeki objelerin, fonksiyonların erişilebilirlik kapsamı vardır, bu kapsama scope adı verilir.
+// 3 ÇEŞİT SCOPE VARDIR BUNLAR :
+// GLOBAL SCOPE // Tanımladığımı değişken süslü parantez içerisinde olmamalı ve böylelikle o değişkene her yerden erişebiliriz.
+// FUNCTİON SCOPE // Tanımladığımız değişkeni fonksiyon içerisinde süslü parantezler içerisinde tanımlarsak o değişkene sadace süslü parantezlerin içerisinde ulaşabilirizç
+// BLOCK SCOPE //  Tanımladığımız değişken if while for gibi metotların süslü parantezinin içerisinde ise block scope olur.
+
 // DEĞİŞKEN NEDİR VE NASIL TANIMLANIR ?
 // Değişken “isimlendirilmiş hafıza” olarak adlandırılır. Değişkenler ile kullanıcıları, ürünleri ve diğer tipteki bilgileri tutabiliriz.
 // Değişken oluştururken let, const ve var kullanırız fakat var kullanımdan kalkmıştır.
@@ -158,7 +165,7 @@
 // Template literals kod okunabilirliği ve yazım kolaylığı sağlayan ES6 ile gelmiş bir string yazma şeklidir.
 // Template literals içerisinde iken fonksiyon kullanabiliriz, hesaplama yaptırtabiliriz ve birden fazla satır içerisinde kod yazabiliriz.
 // Öncesinde tanımladığımzı değişkenleri template literals içerisinde ${} içerisinde yazmalıyız.
-
+1
 // let username = "hakan" // Burada username adlı değişken oluşturup içerisine string türünden hakan değerini verdik.
 // const DOMAIN = "kodluyoruz.org" // Burada DOMAIN adlı değişken oluşturup içerisine string türünden kodluyoruz.org değerini verdik.
 // let email = username + "@" + DOMAIN // Burada email adlı değişken oluşturup içerisinde diğer değişkenlerimizi birleştirme işlemi yaptık.
@@ -322,6 +329,23 @@
 // hello() 
 
 // Yukarıda ki örnekte ilk olarak helloWorld adında bir fonksiyon oluşturduk ve içerisine consola Hello World yazmasını istedik sonra sonda ise hello adında bir fonksiyon oluşturduk ve içerisine ilk olarak consola merhaba yazmasını sonrasında ise helloWorld fonksiyonunu çalıştırmasını istedik. En son olarak ise hello() ile hello fonksiyonumuzu çalıştırdık ve ilk olarak consola merhaba yazdı sonrasında ise helloWorld fonksinonunu da içinde bulundurduğundan onu çalıştırarak conssola Hello Wordl yazdı.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
